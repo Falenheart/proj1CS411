@@ -52,6 +52,7 @@
 			  <h5 class="card-title pt-2"><!-- TemplateBeginEditable name="Name" -->Racket name<!-- TemplateEndEditable --></h5>
 			</div>
 			 <div class="card-body" style="background-color:#AEAEAE">
+			   <h5 class="text-left pb-2" style="color:#4A90E3"><!-- TemplateBeginEditable name="Price" -->$000<!-- TemplateEndEditable --></h5>
 			   <h5 class="text-left small product-option">Weight</h5>
 			   <hr>
 			   <!-- TemplateBeginEditable name="weight_class" -->
@@ -62,7 +63,7 @@
 			   <hr>
 			   <!-- TemplateBeginEditable name="grip_class" -->
 			   <p class="text-left small">Grip class class</p>
-		       <!-- TemplateEndEditable --> </div>
+	         <!-- TemplateEndEditable --> </div>
 			<div class="col-12" style="background-color:#AEAEAE">
 			  <a class="btn btn-primary d-block" href="#">Add to cart</a>
 			  <h5 class="card-body small"><!-- TemplateBeginEditable name="Description" -->DESC<!-- TemplateEndEditable --></h5>
