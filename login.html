@@ -48,19 +48,20 @@
 			  <h4>Login</h4>
 			</div>
 			<div class="card-body">
-			  <form>
+			  <form id="loginForm">
 				<div class="mb-3">
 				  <label for="email" class="form-label">Email address</label>
-				  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+				  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
 				</div>
 				<div class="mb-3">
 				  <label for="password" class="form-label">Password</label>
-				  <input type="password" class="form-control" id="password">
+				  <input type="password" class="form-control" id="password" required>
 				</div>
 				<div class="d-grid gap-2">
 				  <button type="submit" class="btn btn-primary">Sign In</button>
-				  <button type="button" class="btn btn-secondary">Register</button>
+				  <a href="register.html" class="btn btn-secondary">Register</a>
 				</div>
+				<p id="loginError" class="text-danger mt-3" style="display:none;">Your login information is incorrect.</p>
 			  </form>
 			</div>
 		  </div>
@@ -68,7 +69,7 @@
 	  </div>
 	</div>
 	  
-	  <script src=js/validation.js></script>
+	<script src="js/validation.js"></script>
     <!-- InstanceEndEditable -->
     <div class="container text-white bg-dark p-4">
       <div class="row">
