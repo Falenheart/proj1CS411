@@ -15,7 +15,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">CS411 Project-1</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,19 +39,33 @@
       </div>
     </nav>
 
-	<div class="container">
+	<div class="container mt-4 mb-4">
 	  <div class="row">
 	    <div class="col-lg-5 col-sm-12">
+	      <!-- TemplateBeginEditable name="Image" -->
 		  <img class="mr-3 size-fit" src="../images/400X200.gif" alt="placeholder">
+		  <!-- TemplateEndEditable --> 
 		</div>
 		<div class="col-lg-6 col-sm-12">
 		  <div class="row">
 			<div class="col-12 bg-secondary">
-			  <h5 class="card-title">Racket name</h5>
+			  <h5 class="card-title pt-2"><!-- TemplateBeginEditable name="Name" -->Racket name<!-- TemplateEndEditable --></h5>
 			</div>
+			 <div class="card-body" style="background-color:#AEAEAE">
+			   <h5 class="text-left small product-option">Weight</h5>
+			   <hr>
+			   <!-- TemplateBeginEditable name="weight_class" -->
+			   <p class="text-left small">Weight class</p>
+			   <!-- TemplateEndEditable -->
+			   <hr>
+			   <h5 class="text-left small">Grip Size</h5>
+			   <hr>
+			   <!-- TemplateBeginEditable name="grip_class" -->
+			   <p class="text-left small">Grip class class</p>
+		       <!-- TemplateEndEditable --> </div>
 			<div class="col-12" style="background-color:#AEAEAE">
-		      <h5 class="card-body"></h5>
 			  <a class="btn btn-primary d-block" href="#">Add to cart</a>
+			  <h5 class="card-body small"><!-- TemplateBeginEditable name="Description" -->DESC<!-- TemplateEndEditable --></h5>
 		    </div>
 		  </div>
 		</div>
